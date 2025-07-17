@@ -1,17 +1,15 @@
 import java.util.Dictionary;
 import java.util.Hashtable;
+import java.util.HashMap;
 
 
 public class Questions {
-    Dictionary <String, String> questions = new Hashtable<>();
+    Map <String, String> questions = new HashMap<>();
+    
+    
+    
+    
 
-    questions.put("What is the capital of Pakistan?", "Islamabad");
-    questions.put("What is the capital of France?", "Paris");
 
-
-    public void starQuiz(){
-       for (String q : questions.values()) {
-            System.out.println(q);
-        }
-    }
+   
 }
